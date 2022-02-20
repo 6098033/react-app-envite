@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+   display: flex;
+  align-items: center;
+  justify-content:center;
+
 }
 
 .App-logo {
@@ -14,18 +18,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0645be79-d475-40e0-9f53-9336e3fe13b7/envited_landing_page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220219T231747Z&X-Amz-Expires=86400&X-Amz-Signature=cbf3e4290ac7acc6df1a34ae6a777f310b4ff795c31e910484f7c51a4af1b0db&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Landing%2520page%2520background%2520gradient.png%22&x-id=GetObject);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content:center;
+
   color: white;
+  width: 375px;
+  position: relative;
+  background-size: cover;
+
 }
 
 .App-link {
   color: #61dafb;
+
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +44,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.welcome{
+
+  color: white;
+  font-weight: 1000;
+  font-size:xx-large;
+  position:absolute;
+  top:80px;
+  left:20px;
+  width: 335px;
+  line-height: 30px;
+
+
+}
+.welcome h3{
+  margin: 0px;
+}
+
+.nav-bar{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width: 375px;
+  background-size: cover;
+  display: flex;
+}
+
+
+
+.nav-bar img{
+max-height: 100%;
+max-width: 100%;
+}
+
+.description{
+  width: 335px;
+  margin-top: 33px;
+  line-height: 20px;
+  position:absolute;
+  top:120px;
+  left:20px;
+
+}
+
+.description p{
+  margin: 0px;
+}
+
+.create-btn{
+  width: 186px;
+  height: 21px;
+
+}
+
+.create-btn img{
+max-height: 100%;
+max-width: 100%;
+}
+
+.icons{
+  width: 375px;
+  height: 240px;
+   position:absolute;
+  bottom:0px;
+  left:0px;
+
+}
+.icons img{
+  max-height: 100%;
+max-width: 100%;
+}
+
+.flex{
+  display: flex;
+  position:absolute;
+  bottom:0px;
+  left:0px;
 }
